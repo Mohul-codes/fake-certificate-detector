@@ -1,0 +1,24 @@
+# Python
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+**/.venv/
+**/venv/
+**/ENV/
+**/env/
+
+# Node / JS
+**/node_modules/
+**/dist/
+**/build/
+.eslintcache
+
+# Project specific
+**/backend/uploads/*
+!**/backend/uploads/.gitkeep
+**/ml_model/dataset/*
+!**/ml_model/dataset/.gitkeep
+.env
+.env.*
+.DS_Store
+Thumbs.db
