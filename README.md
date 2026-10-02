@@ -1,4 +1,4 @@
-# 🔍 Fake Certificate Detector
+#  Fake Certificate Detector
 
 > **Fake Certificate Detector** — a FastAPI + React prototype that analyzes uploaded PDF certificates using structural heuristics and an ML text-anomaly model to flag likely **FAKE** certificates. Includes tools to parse PDFs, compare templates, detect font/alignment anomalies, and (re)train the detection model.
 
@@ -22,7 +22,7 @@ Fake Certificate Detector is a small full-stack project that detects tampered or
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 FakeCertificateIdentifier/              # Top-level project folder
@@ -48,7 +48,7 @@ Readme.txt                              # Minimal run instructions
 
 ---
 
-## ⚙️ How It Fits Together
+##  How It Fits Together
 
 ```
 ┌──────────────┐    POST /api/v1/analyze    ┌─────────────────────────┐
@@ -77,7 +77,7 @@ Readme.txt                              # Minimal run instructions
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 > **Prerequisites:** Python 3.10+ and Node.js / npm installed.
 
@@ -123,7 +123,7 @@ python train_model.py
 
 ---
 
-## 📝 Notes
+##  Notes
 
 - The backend dependencies are listed in `FakeCertificateIdentifier/backend/requirements.txt` (FastAPI, uvicorn, PyMuPDF, pdfplumber, Pillow, scikit-learn, pandas, numpy).
 - CORS in `main.py` allows `http://localhost:3000` — backend default port is **8000** (uvicorn).
