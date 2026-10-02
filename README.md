@@ -10,7 +10,7 @@ Fake Certificate Detector is a small full-stack project that detects tampered or
 
 ---
 
-## 🛠️ Stack
+## Stack
 
 | Layer | Technology |
 |---|---|
