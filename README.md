@@ -131,6 +131,3 @@ python train_model.py
 
 ---
 
-## 📜 License
-
-This project is for educational / demonstration purposes.
